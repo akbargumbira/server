@@ -143,6 +143,12 @@ Payload::MarkSaturated()
 }
 
 void
+Payload::MarkSaturated()
+{
+  saturated_ = true;
+}
+
+void
 Payload::SetState(Payload::State state)
 {
   state_ = state;
